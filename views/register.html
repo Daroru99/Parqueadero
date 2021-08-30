@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registrar</title>
+
+</head>
+
+<body>
+    <header>
+        <h3> Nuevo Registro</h3>
+    </header>
+    <nav>
+        <a href="./home.html">Volver</a>
+    </nav>
+    <img src="../public/images/spot-parking-1-768x432.jpg" alt="">
+    <div class="divformulario">
+        <form class="formularioregistro" action="/add" method="post">
+            <input type="input" name="codRegistro" class="inputformulario" placeholder="Codigo registro" id="codigoRegistro" required/><br>
+            <input type="input" name="nombre" class="inputformulario" placeholder="Nombre completo" id="nombre" required/><br>
+            <input type="input" name="cedula" class="inputformulario" placeholder="Cédula" id="cedula" required/><br>
+            <select class="inputformulario" name="vehiculo" id="cars" form="carform">
+                <option selected disable="true" value="">Vehículo</option>
+                <option value="moto">Moto</option>
+                <option value="carro">Carro</option>
+                <option value="Bicicleta">Bicicleta</option>
+              </select>
+            <input type="input" name="placa" class="inputformulario" placeholder="Placa" id="placa" required/><br>
+            <input type="input" name="fotografia" class="inputformulario" placeholder="Fotografía" id="foto" required/><br>
+            <input type="input" name="cilindraje" class="inputformulario" placeholder="Cilindraje" id="Cilindraje" required/><br>
+            <input type="input" name="tiempos" class="inputformulario" placeholder="Tiempos" id="tiempo" required/><br>
+            <input type="input" name="modelo" class="inputformulario" placeholder="Modelo" id="modelo" required/><br>
+            <input type="input" name="numeroPuertas" class="inputformulario" placeholder="Número puertas" id="puertas" required/><br>
+            <input type="input" name="serie" class="inputformulario" placeholder="Serie" id="serie" required/><br>
+            <input type="input" name="marca" class="inputformulario" placeholder="Marca" id="marca" required/><br>
+
+            <button type="submit" class="btnregistro" onclick="location.href='./register.html'">Guardar</button>
+        </form>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>

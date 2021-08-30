@@ -1,0 +1,182 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, serif;
+}
+
+header {
+    padding: 5px;
+    background: orange;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    height: 95px;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    opacity: 0.3;
+}
+
+
+/* Pagina ingresar */
+
+.divh2 {
+    font-size: 60px;
+    top: 10%;
+    left: 25%;
+    position: absolute;
+}
+
+.divh3 {
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btningresar {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btningresar:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* Pagina principal*/
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background: black;
+}
+
+nav a {
+    color: orange;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a:hover {
+    background: white;
+    color: orange;
+}
+
+.buscadorPlaca {
+    position: absolute;
+    top: 38%;
+    left: 13%;
+}
+
+.buscadorcedula {
+    position: absolute;
+    top: 38%;
+    left: 65%;
+}
+
+.inputbuscador {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.btnpp {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btnpp:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* Pagina de registro */
+
+.divformulario {
+    position: absolute;
+    top: 28%;
+    left: 32%;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    border-radius: 2%;
+    width: 35%;
+    height: 96%;
+}
+
+.formularioregistro {
+    padding: 15px 100px;
+}
+
+.inputformulario {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.btnregistro {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: orange;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btnregistro:hover {
+    background-color: black;
+    color: white;
+}
