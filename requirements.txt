@@ -1,0 +1,9 @@
+Para correr los archivos toca instalar las siguientes librerias:
+express,
+express-myconnection,
+morgan,
+mysql,
+mysql2,
+twig,
+
+igual manera tambien instalar npm y los comandos de node y nodemon.
